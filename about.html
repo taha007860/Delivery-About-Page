@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="images/icon.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script
+      src="https://kit.fontawesome.com/912118b283.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="header-wrapper">
+        <div class="header-content">
+          <div class="container-default header container">
+            <div class="header-content-wrapper">
+              <div class="header-left-side">
+                <a href="#" class="header-logo-link nav-brand">
+                  <img src="images/logo.png" alt="Logo" class="header-logo">
+                </a>
+              </div>
+              <div class="header-right-side">
+                <nav role="navigation" class="header-nav-menu-wrapper nav-menu">
+                  <ul role="list" class="header-nav-menu-list">
+                    <li class="header-nav-list-item header">
+                      <a href="#" class="header-nav-link nav-link">Home</a>
+                    </li>
+                    <li class="header-nav-list-item header">
+                      <a href="#" class="header-nav-link nav-link current">About</a>
+                    </li>
+                    <li class="header-nav-list-item header">
+                      <a href="#" class="header-nav-link nav-link">Pricing</a>
+                    </li>
+                    <li class="header-nav-list-item header">
+                      <div class="dropdown-wrapper dropdown">
+                        <div class="header-nav-link dropdown">
+                          <div>Pages</div>
+                          <i class="fas fa-angle-down"></i>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header-nav-list-item show-in-tablet-menu-header">
+                      <a href="#" class="btn-primary width-100 button">Get started</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="commerce-commercecartwrapper cart">
+                  <a href="#" class="commerce-commercecartopenlink header-nav-link cart-btn inline-block">
+                    <div class="inline-block">Cart(0)</div>
+                  </a>
+                </div>
+                <div class="buttons-row header">
+                  <div class="btn-row-left header">
+                    <a href="#" class="btn-secondary small button">Download app</a>
+                  </div>
+                  <div class="btn-row-right">
+                    <a href="#" class="btn-primary small button">Register</a>
+                  </div>
+                </div>
+                <i class="fas fa-times"></i>
+                <div class="hamburger-menu-wrapper nav-button">
+                  <div class="hamburger-menu-bar top"></div>
+                  <div class="hamburger-menu-bar bottom"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section hero _02 bg-neutral-200">
+        <div class="container-default container">
+          <div class="layout-grid grid-1-column gap-row-100px">
+            <div id="about-div" class="inner-container _680px-tablet center">
+              <div class="layout-grid grid-2-columns hero-02">
+                <div class="text-center-tablet">
+                  <div class="mg-bottom-22px">
+                    <div class="text-200 bold text-uppercase color-accent-1">About Deliver X</div>
+                  </div>
+                  <h1 id="h1elm">We are here to help amazing restaurants get great customers</h1>
+                  <div class="inner-container _590px center-tablet">
+                    <p class="mg-bottom-0">At morbi adipiscing sit sed consectetur senectus Dignissim sed amet tincidunt vitae ultricies ultrices amet fermentum amet neque et id sed lacinia massa pretium aliquam <span class="text-no-wrap">libero et.</span>
+                    </p>
+                  </div>
+                </div>
+                <div id="delivery-div" class="inner-container _500px-tablet center">
+                  <div class="position-relative">
+                    <img src="images/delivery.png" loading="eager" class="image cover pop-in-out" alt="delivery man" />
+                    <div class="image-wrapper border-radius-16px hero-02-image-absolute-01">
+                      <img src="images/burger.png" loading="eager" alt="burger" class="image cover" />
+                    </div>
+                    <div id="motor" class="image-wrapper border-radius-8px hero-02-image-absolute-02">
+                      <img src="images/motor.png" loading="eager" alt="motorcycle delivery" class="image cover" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="layout-grid grid-4-columns stats">
+              <div id="customers-div" class="text-center">
+                <div class="mg-bottom-6px">
+                  <div id="million" class="display-2">10M <span class="color-accent-1">+</span>
+                  </div>
+                </div>
+                <div class="text-200 medium">Happy customers</div>
+              </div>
+              <div id="restaurants-div" class="text-center">
+                <div class="mg-bottom-6px">
+                  <div id="thousand" class="display-2">500k <span class="color-accent-1">+</span>
+                  </div>
+                </div>
+                <div class="text-200 medium">Restaurants available</div>
+              </div>
+              <div id="success-div" class="text-center">
+                <div class="mg-bottom-6px">
+                  <div id="million2" class="display-2">30M <span class="color-accent-1">+</span>
+                  </div>
+                </div>
+                <div class="text-200 medium">Successful deliveries</div>
+              </div>
+              <div id="satisfaction-div" class="text-center">
+                <div class="mg-bottom-6px">
+                  <div id="hundred" class="display-2">99.9 <span class="color-accent-1">%</span>
+                  </div>
+                </div>
+                <div class="text-200 medium">Customer satisfaction</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section _200px">
+        <div class="container-default container">
+          <div class="inner-container _680px-tablet center">
+            <div class="layout-grid grid-1-column gap-row-100px story">
+              <div class="layout-grid grid-2-columns text-right-default">
+                <div class="trigger">
+                  <img id="image" src="images/man.png" class="image cover pop-in-out" alt="delivery man"/>
+                </div>
+                <div id="aboutUs-div" class="inner-container _480px width-100-tablet">
+                  <div class="mg-bottom-12px">
+                    <div id="about" class="text-200 bold text-uppercase color-accent-1">About us</div>
+                  </div>
+                  <h2 id="h2elm">Our company started back <span class="text-no-wrap">in 2016</span>
+                  </h2>
+                  <p id="text" class="mg-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+                </div>
+              </div>
+              <div class="layout-grid grid-2-columns text-left-default">
+                <div id="mission-div" class="inner-container _533px width-100-tablet">
+                  <div class="mg-bottom-12px">
+                    <div id="mission" class="text-200 bold text-uppercase color-accent-1">Our mission</div>
+                  </div>
+                  <h2 id="h2el">Our mission is to disrupt the <span class="text-no-wrap">food industry</span>
+                  </h2>
+                  <div class="inner-container _480px width-100-tablet">
+                    <p id="par" class="mg-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut <span class="text-no-wrap">odit aut fugit.</span>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img id="phone" src="images/phone.png" class="image cover pop-in-out" style="position: relative; right: 20px;" alt="phone delivery"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section _200px bg-neutral-200">
+        <div class="container-default container">
+          <div class="inner-container _680px-tablet center">
+            <div class="layout-grid grid-2-columns _1-col-tablet gap-row-64px">
+              <div id="journey-div">
+                <div class="position-sticky top-160px">
+                  <div id="card-container" class="inner-container _520px _100-tablet">
+                    <div class="mg-bottom-12px">
+                      <div class="text-200 bold text-uppercase color-accent-1">Our journey</div>
+                    </div>
+                    <div class="inner-container _520px-tablet">
+                      <div class="inner-container _400px-mbl">
+                        <h2 id="h2El">It has been a long but incredible journey</h2>
+                      </div>
+                    </div>
+                    <p class="mg-bottom-48px">Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque <span class="text-no-wrap">ut quis.</span>
+                    </p>
+                    <div class="buttons-row">
+                      <div class="btn-row-left">
+                        <a href="#" class="btn-primary button download-app">Download app</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="box-div" class="inner-container _588px _100-tablet">
+                <div id="grid-div" class="layout-grid grid-1-column gap-row-40px">
+                  <div id="card-box">
+                    <div id="card-div" class="card chronology">
+                      <div class="mg-bottom-12px">
+                        <div class="heading-h4-size color-accent-1">2016</div>
+                      </div>
+                      <h3 id="h3el" class="mg-bottom-32px">Deliver X was founded</h3>
+                      <p class="mg-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo <span class="text-no-wrap">enim ipsam.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div id="card-box2">
+                    <div id="card-div2" class="card chronology">
+                      <div class="mg-bottom-12px">
+                        <div class="heading-h4-size color-accent-1">2018</div>
+                      </div>
+                      <h3 id="h3elm" class="mg-bottom-32px">Raised Series A at $50M valuation</h3>
+                      <p class="mg-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo <span class="text-no-wrap">enim ipsam.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div id="card-box3">
+                    <div id="card-div3" class="card chronology">
+                      <div class="mg-bottom-12px">
+                        <div class="heading-h4-size color-accent-1">2019</div>
+                      </div>
+                      <h3 id="h3Elm" class="mg-bottom-32px">Raised Series B at $600M valuation</h3>
+                      <p class="mg-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo <span class="text-no-wrap">enim ipsam.</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div id="card-box4">
+                    <div id="card-div4" class="card chronology">
+                      <div class="mg-bottom-12px">
+                        <div class="heading-h4-size color-accent-1">2022</div>
+                      </div>
+                      <h3 id="h3El" class="mg-bottom-32px">Raised Series C at $3B valuation</h3>
+                      <p class="mg-bottom-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo <span class="text-no-wrap">enim ipsam.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section _200px">
+        <div class="container-default container">
+          <div class="mg-bottom-110px">
+            <div class="inner-container _700px center">
+              <div class="text-center">
+                <div class="mg-bottom-12px">
+                  <div class="text-200 bold text-uppercase color-accent-1">Our Partners</div>
+                </div>
+                <h2 id="h2Elm">We don’t walk alone, Deliver X works thanks to <span class="text-no-wrap">our partners</span>
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu egestas morbi sem vulputate etiam facilisis pellentesque <span class="text-no-wrap">ut quis.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="partners" class="layout-grid grid-3-columns gap-row-80px _1-col-tablet">
+            <div id="partner-div" class="inner-container _350px">
+              <div class="text-center">
+                <div class="mg-bottom-32px">
+                  <div class="inner-container _218px center responsive">
+                    <img class="partners-img" src="images/person.png" alt="Customers" />
+                  </div>
+                </div>
+                <h3 id="h3Element" class="display-4 mg-bottom-16px">Customers</h3>
+                <p class="mg-bottom-0">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam <span class="text-no-wrap">sit nullam.</span>
+                </p>
+              </div>
+            </div>
+            <div id="partner-restaurant" class="inner-container _350px">
+              <div class="text-center">
+                <div class="mg-bottom-32px">
+                  <div class="inner-container _218px center responsive">
+                    <img class="partners-img" src="images/shop.png" alt="Restaurants" />
+                  </div>
+                </div>
+                <h3 id="h3element" class="display-4 mg-bottom-16px">Restaurants</h3>
+                <p class="mg-bottom-0">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam <span class="text-no-wrap">sit nullam.</span>
+                </p>
+              </div>
+            </div>
+            <div id="rider-div" class="inner-container _350px">
+              <div class="text-center">
+                <div class="mg-bottom-32px">
+                  <div class="inner-container _218px center responsive">
+                    <img class="partners-img" src="images/rider.png" alt="Riders" />
+                  </div>
+                </div>
+                <h3 id="h3Elem" class="display-4 mg-bottom-16px">Riders</h3>
+                <p class="mg-bottom-0">Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam <span class="text-no-wrap">sit nullam.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section _200px bg-neutral-200">
+        <div class="container-default container">
+          <div id="container" class="inner-container _680px-tablet center">
+            <div class="mg-bottom-64px">
+              <div class="inner-container _620px center">
+                <div class="text-center">
+                  <div class="mg-bottom-12px">
+                    <div class="text-200 bold text-uppercase color-accent-1">Press &amp; News</div>
+                  </div>
+                  <h2 id="h2Element">See what the press says about <span class="text-no-wrap">Deliver X</span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="layout-grid grid-2-columns _1-col-tablet">
+              <a id="a" href="#" class="card press link-content inline-block">
+                <div class="mg-bottom-26px">
+                  <img src="images/company.png" loading="eager" alt="Company" class="image" />
+                </div>
+                <h3 id="h3-text1" class="display-4 mg-bottom-24px">Deliver X raises $26M in series B funding <span class="text-no-wrap">for growth</span>
+                </h3>
+                <div class="layout-grid grid-2-columns card-press-details">
+                  <div class="mg-right-24px">
+                    <div class="link-wrapper color-primary text-bold no-hover">
+                      <div class="link-text">Read more</div>
+                      <i class="fas fa-arrow-right rotate-anticlockwise"></i>
+                    </div>
+                  </div>
+                  <div id="date1" class="text-300 medium">January 22, 2023</div>
+                </div>
+              </a>
+              <a id="aCard" href="#" class="card press link-content inline-block">
+                <div class="mg-bottom-26px">
+                  <img src="images/company2.png" loading="eager" alt="Company" class="image" />
+                </div>
+                <h3 id="h3-text2" class="display-4 mg-bottom-24px">Deliver X claims to be the #1 player in the delivery industry</h3>
+                <div class="layout-grid grid-2-columns card-press-details">
+                  <div class="mg-right-24px">
+                    <div class="link-wrapper color-primary text-bold no-hover">
+                      <div class="link-text">Read more</div>
+                      <i class="fas fa-arrow-right rotate-anticlockwise"></i>
+                    </div>
+                  </div>
+                  <div id="date2" class="text-300 medium">Nov 15, 2022</div>
+                </div>
+              </a>
+              <a id="acard" href="#" class="card press link-content inline-block">
+                <div class="mg-bottom-26px">
+                  <img src="images/company3.png" loading="eager" alt="Company" class="image" />
+                </div>
+                <h3 id="h3-text3" class="display-4 mg-bottom-24px">Introducing curbside ordering with <span class="text-no-wrap">Deliver X</span>
+                </h3>
+                <div class="layout-grid grid-2-columns card-press-details">
+                  <div class="mg-right-24px">
+                    <div class="link-wrapper color-primary text-bold no-hover">
+                      <div class="link-text">Read more</div>
+                      <i class="fas fa-arrow-right rotate-anticlockwise"></i>
+                    </div>
+                  </div>
+                  <div id="date3" class="text-300 medium">Sep 18, 2022</div>
+                </div>
+              </a>
+              <a id="atag" href="#" class="card press link-content inline-block">
+                <div class="mg-bottom-26px">
+                  <img src="images/company4.png" loading="eager" alt="Company" class="image" />
+                </div>
+                <h3 id="h3-text4" class="display-4 mg-bottom-24px">Introducing the Square POS integration with <span class="text-no-wrap">Deliver X</span>
+                </h3>
+                <div class="layout-grid grid-2-columns card-press-details">
+                  <div class="mg-right-24px">
+                    <div class="link-wrapper color-primary text-bold no-hover">
+                      <div class="link-text">Read more</div>
+                      <i class="fas fa-arrow-right rotate-anticlockwise"></i>
+                    </div>
+                  </div>
+                  <div id="date4" class="text-300 medium">Mar 12, 2022</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-wrapper">
+        <div class="container-default container">
+          <div class="footer-top">
+            <div class="layout-grid grid-footer-2-column---logo-and-buttons">
+              <div id="footer-div" class="inner-container _450px">
+                <a href="#" class="footer-logo-wrapper inline-block">
+                  <img src="images/logo.png" alt="Logo" class="footer-logo" />
+                </a>
+                <p class="mg-bottom-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor <span class="text-no-wrap">incididunt ut.</span>
+                </p>
+              </div>
+              <div id="download-div" class="buttons-row download-app">
+                <div class="btn-row-left download-app">
+                  <a href="#" class="btn-primary download-app inline-block">
+                    <div><i class="fab fa-apple"></i> Download for iOS</div>
+                  </a>
+                </div>
+                <div class="btn-row-right">
+                  <a href="#" class="btn-primary download-app inline-block">
+                    <div><i class="fab fa-android"></i> Download for Android</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-middle">
+            <div class="layout-grid grid-3-columns footer-nav-menu">
+              <div class="inner-container _230px">
+                <div class="mg-bottom-40px">
+                  <div class="text-300 bold color-neutral-800">Menu</div>
+                </div>
+                <div class="nav-menu-list-main-wrapper">
+                  <ul role="list" class="nav-menu-list-wrapper">
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Home</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="about.html" aria-current="page" class="text-200 menu-nav-link current">About</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Contact</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Blog</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Blog posts</a>
+                    </li>
+                  </ul>
+                  <ul role="list" class="nav-menu-list-wrapper last">
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Plans</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Plan single</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Register</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="inner-container _230px">
+                <div class="mg-bottom-40px">
+                  <div class="text-300 bold color-neutral-800">Utility pages</div>
+                </div>
+                <div class="nav-menu-list-main-wrapper">
+                  <ul role="list" class="nav-menu-list-wrapper last">
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Start here</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Styleguide</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Password protected</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">404 Not found</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Licenses</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link">Changelog</a>
+                    </li>
+                    <li class="nav-menu-list-item">
+                      <a href="#" class="text-200 menu-nav-link special">Browse More Templates</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="available" class="inner-container _502px">
+                <div class="mg-bottom-40px">
+                  <div class="text-300 bold color-neutral-800">Available in</div>
+                </div>
+                <div class="layout-grid grid-2-columns footer-country-available-service">
+                  <div id="san-div" class="flex-horizontal align-center">
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img src="images/san.png" loading="eager" alt="San Francisco" class="image border-radius-24px responsive" />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">San Francisco, CA</div>
+                  </div>
+                  <div id="new-div" class="flex-horizontal align-center">
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img src="images/new.png" loading="eager" alt="New York" class="image border-radius-24px responsive" />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">New York, NY</div>
+                  </div>
+                  <div id="los-div" class="flex-horizontal align-center">
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img src="images/los.png" loading="eager" alt="Los Angeles" class="image border-radius-24px responsive" />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">Los Angeles, CA</div>
+                  </div>
+                  <div id="seattle-div" class="flex-horizontal align-center">
+                    <div class="mg-right-18px">
+                      <div class="inner-container _78px width-100 responsive">
+                        <img src="images/seattle.png" loading="eager" alt="Seattle" class="image border-radius-24px responsive" />
+                      </div>
+                    </div>
+                    <div class="heading-h5-size country-available">Seattle, WA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="mg-bottom-0">Copyright © Deliver X | Designed by <a href="#" class="text-decoration-none">BRIX Templates</a> - Powered by <a href="#" class="text-decoration-none">Webflow</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script>
+    var mgBottomElement, h1Element, h2Element, innerContainerElement, delMan, delMan2, about, text, phone, mission, par, container, cards, footerTop, footerMiddle, footerBottom;
+
+// Ensure the DOM is fully loaded before running the script
+document.addEventListener("DOMContentLoaded", function () {
+    // Target the elements
+    mgBottomElement = document.querySelector('.mg-bottom-22px');
+    h1Element = document.querySelector('h1');
+    h2Element = document.querySelectorAll('h2');
+    innerContainerElement = document.querySelector('.inner-container');
+    delMan = document.querySelector('.position-relative img');
+    delMan2 = document.querySelector('#image');
+    about = document.querySelector("#about");
+    text = document.querySelector("#text")
+    phone = document.querySelector('#phone');
+    mission = document.querySelector('#mission'); 
+    par = document.querySelector('#par');
+    container = document.querySelector('#card-container');
+    cards = document.querySelectorAll(".card.chronology");
+    footerTop = document.querySelector(".footer-top");
+    footerMiddle = document.querySelector(".footer-middle");
+    footerBottom = document.querySelector(".footer-bottom");
+
+    // GSAP animation on initial load
+    gsap.from(mgBottomElement, { opacity: 0, y: -20, ease: "power2.inOut", duration: 1 });
+    gsap.from(h1Element, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(h2Element, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(text, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(about, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(cards, { scale: 0.5, opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(container, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(mission, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(par, { opacity: 0, y: 20, ease: "power1.inOut", duration: 1 });
+    gsap.from(innerContainerElement, { opacity: 0, y: 20, ease: "power2.inOut", duration: 1 });
+    gsap.from(delMan, { opacity: 0, scale: 0.1, ease: "power1.inOut", stagger: 0.2, duration: 0.5 });
+    gsap.from(delMan2, { opacity: 0, scale: 0.7, ease: "power1.inOut", stagger: 0.7, duration: 0.5 });
+    gsap.from(phone, { opacity: 0, scale: 0.3, ease: "power1.inOut", stagger: 0.1, duration: 0.5 });
+    gsap.from(footerTop, {opacity: 0.2, ease: "power2.inOut", y: 20, duration: 1});
+    gsap.from(footerMiddle, {opacity: 0.4, ease: "power2.inOut", y: 15, duration: 1});
+    gsap.from(footerBottom, {opacity: 0, ease: "power2.Out", y: 0, duration: 4});
+});
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Target the image elements
+        var imageWrapper1 = document.querySelector('.hero-02-image-absolute-01');
+        var imageWrapper2 = document.querySelector('.hero-02-image-absolute-02');
+        var companyCards = document.querySelectorAll(".card.press.link-content.inline-block");
+        // Quick pop animation when the page is loaded
+        gsap.from(companyCards, { opacity: 0, scale: 0.8, ease: "power2.inOut", duration: 0.5 });
+        gsap.from([imageWrapper1, imageWrapper2], { opacity: 0, scale: 1.2, ease: "power1.inOut", duration: 0.5, stagger: 0.2, onComplete: startUpDownAnimation });
+    
+        function startUpDownAnimation() {
+            // Moving up and down animation after the page is loaded
+            gsap.to(imageWrapper1, { y: 24, ease: "power1.inOut", duration: 4 });
+            gsap.to(imageWrapper2, { y: -24,  ease: "power1.inOut", duration: 4 });
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      // Target the navigation elements
+      var navMenuItems = document.querySelectorAll('.header-nav-list-item');
+      var cart = document.querySelector(".commerce-commercecartopenlink");
+      var buttons = document.querySelectorAll(".small.button")
+      var logo = document.querySelector(".header-logo-link.nav-brand img")
+      var numbers = document.querySelectorAll(".mg-bottom-6px");
+      var texts = document.querySelectorAll(".text-200.medium");
+      var partners = document.querySelector("#partners");
+      // GSAP animation for navigation items
+      gsap.from(navMenuItems, { opacity: 0, y: -30, ease: "power2.inOut", duration: 1 });
+      gsap.from(cart, { opacity: 0, y: -30, ease: "power2.inOut", duration: 1 });
+      gsap.from(buttons, { opacity: 0, y: -30, ease: "power2.inOut", duration: 1 });
+      gsap.from(logo, { opacity: 0, y: -30, ease: "power2.inOut", duration: 1 });
+      gsap.from(numbers, { opacity: 1, y: -30, ease: "power2.inOut", duration: 1, stagger: 0.2 });
+      gsap.from(texts, { opacity: 1, y: -30, ease: "power2.inOut", duration: 1, stagger: 0.1 });
+      gsap.from(partners, { opacity: 0, y: 30, ease: "power2.inOut", duration: 1 });
+    });
+       // Wait for the DOM to be fully loaded before accessing elements
+document.addEventListener('DOMContentLoaded', function() {
+    const hamBtn = document.querySelector(".hamburger-menu-wrapper.nav-button");
+    const hamMenu = document.querySelector(".nav-menu");
+    const Xbutton = document.querySelector(".fas.fa-times");
+    const cart = document .querySelector(".commerce-commercecartopenlink");
+      hamBtn.addEventListener('click', function() {
+        if(window.innerWidth < 991) {
+        hamMenu.style.display = 'block';
+        hamBtn.style.display = 'none';
+        Xbutton.style.display = 'block'; 
+        cart.style.display = 'none';
+      }
+      });
+      Xbutton.addEventListener('click', function() {
+        
+        hamBtn.style.display = 'block';
+        hamMenu.style.display = 'none';
+        Xbutton.style.display = 'none';
+        cart.style.display = 'block';
+        
+      });
+      
+  });
+  const header = document.getElementsByClassName('header-wrapper')[0];
+let prevScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
+window.onscroll = () => {
+  const currentScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (prevScrollPos > currentScrollPos) {
+    gsap.to(header, { y: 0, duration: 0.1, ease: 'power2.out' }); // show the header when scrolling up
+  } else {
+    gsap.to(header, { y: -header.offsetHeight, duration: 0.1, ease: 'power2.out' }); // hide the header when scrolling down
+  }
+
+  prevScrollPos = currentScrollPos;
+};
+var image = document.getElementById("image");
+      var phone = document.getElementById("phone");
+      var delMan = document.querySelector(".position-relative img");
+      function playAnimation() {
+        image.classList.add("pop-in-out");
+        phone.classList.add("pop-in-out");
+        delMan.classList.add("pop-in-out");
+        setTimeout(function() {
+          image.classList.remove("pop-in-out");
+          phone.classList.remove("pop-in-out");
+          delMan.classList.remove("pop-in-out");
+        }, 2000); // The duration of the animation in milliseconds
+      }
+  
+      window.addEventListener("scroll", playAnimation);
+  </script>
+  </body>
+</html>
